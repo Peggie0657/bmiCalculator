@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bmiCalculatorCss.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <img src="JavaScript_HomeWork-gh-pages/assets/BMICLogo.png" class="logo" alt="">
+            <label for="heightId" class="height">身高 cm</label>
+            <input type="text" name="height" id="heightId" class="textHeight" placeholder="請輸入身高">
+            <p class="warningHeight"></p>
+            <label for="weightId" class="weight">體重 kg</label>
+            <input type="text" name="weight" id="weightId" class="textWeight" placeholder="請輸入體重">
+            <p class="warningWeight"></p>
+            <div class="resultArea">
+                <div class="btn" id="btnId">
+                    <div class="bmiResult" id="bmiResultId">看結果</div>
+                    <div class="bmi" id="bmiId"></div>
+                </div>
+                <div class="reset" id="resetId"></div>
+                <div class="condition" id="conditionId"></div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap2">
+        <div class="content">
+            <p>BMI紀錄</p>
+            <ol class="list"></ol>
+        </div>
+        <div class="footer">
+            <div class="img">
+            <img src="JavaScript_HomeWork-gh-pages/assets/BMICLogo2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="js/bmiCalculatorJs.js"></script>
+</body>
+
+</html>
